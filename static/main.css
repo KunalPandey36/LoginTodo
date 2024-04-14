@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    margin: 0; /* Remove default body margin */
+  }
+    
+    .content {
+      text-align: center; /* Center align the content within the .content div */
+    }
+    
+    table {
+      border-collapse: collapse;
+      margin: 0 auto; /* Center the table horizontally within the .content div */
+    }
+    
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+  
+    .formclass {
+      display: flex table-column;
+      justify-content: center;
+      
+    }
+    
